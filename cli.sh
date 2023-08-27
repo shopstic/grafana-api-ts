@@ -12,7 +12,7 @@ publish_npm() {
 }
 
 gen_types() {
-  local SPEC_URL=${1:-"https://raw.githubusercontent.com/grafana/grafana/v9.4.3/public/openapi3.json"}
+  local SPEC_URL=${1:-"https://raw.githubusercontent.com/grafana/grafana/v10.1.0/public/openapi3.json"}
 
   echo "// deno-lint-ignore-file no-empty-interface" > "$THIS_DIR"/src/openapi.ts
   echo "// Generated from ${SPEC_URL}" >> "$THIS_DIR"/src/openapi.ts
