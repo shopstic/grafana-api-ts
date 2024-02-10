@@ -1,6 +1,6 @@
 {
   "name": "grafana-api-ts",
-  "version": "10.1.0",
+  "version": "10.3.1",
   "description": "",
   "main": "./esm/index.js",
   "directories": {
